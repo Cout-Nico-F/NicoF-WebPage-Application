@@ -67,11 +67,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ASPX\BuyWebPages.aspx" />
     <Content Include="ASPX\Home.aspx" />
     <Content Include="StyleSheets\Master_A_Styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ASPX\BuyWebPages.aspx.cs">
+      <DependentUpon>BuyWebPages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPX\BuyWebPages.aspx.designer.cs">
+      <DependentUpon>BuyWebPages.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ASPX\Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
